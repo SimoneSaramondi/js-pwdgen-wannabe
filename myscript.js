@@ -9,13 +9,13 @@ document.writeln(nome + cognome + colore + "21");
 
 /*ALTRI MODI PER SVOLGERE L'ESERCIZIO*/
 /* SECONDO MODO
-document.writeln(nome);
+document.write(nome);
 
-document.writeln(cognome);
+document.write(cognome);
 
-document.writeln(colore);
+document.write(colore);
 
-document.writeln("21");
+document.write("21");
 */
 /* TERZO MODO
 document.getElementById("info-personali").innerHTML= nome + cognome + colore +"21";
